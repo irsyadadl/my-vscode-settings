@@ -1,4 +1,4 @@
-# my-vscode-settings
+# My Visual Studio Code Settings
 The extensions you need to install in order to make that setting works.
 
  1. [Costumise UI](https://marketplace.visualstudio.com/items?itemName=iocave.customize-ui)
