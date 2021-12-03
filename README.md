@@ -13,5 +13,6 @@ If you like to know what extensions I used.
  10. [Search node_modules](https://marketplace.visualstudio.com/items?itemName=jasonnutter.search-node-modules) (required)
  11. [Laravel Blade Spacer](https://marketplace.visualstudio.com/items?itemName=austenc.laravel-blade-spacer) (required)
  12. [Laravel Blade formatter](https://marketplace.visualstudio.com/items?itemName=shufo.vscode-blade-formatter)
+ 13. Github Copilot (disabled)
 
 It will change if I have something new.
