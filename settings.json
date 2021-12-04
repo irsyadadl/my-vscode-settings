@@ -1,4 +1,8 @@
 {
+    "zenMode.centerLayout": false,
+    "files.autoSave": "onFocusChange",
+    "intelephense.environment.phpVersion": "8.1.0",
+    "intelephense.diagnostics.undefinedMethods": false,
     "workbench.colorTheme": "Monokai Pro",
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": false,
@@ -75,7 +79,7 @@
     },
 
     "customizeUI.stylesheet": {
-        ".monaco-workbench .part.sidebar>.title>.title-label h2": "color: white !important; text-transform: none;",
+        ".monaco-workbench .part.sidebar>.title>.title-label h2": "text-transform: none;",
         ".monaco-workbench .part.titlebar": "border-bottom: rgba(255,255,255,0.1) 1px solid !important",
         ".editor .title": "background: transparent !important; border-bottom: rgba(255,255,255,0.1) 1px solid;",
         ".editor .title .label-description": "visibility: hidden;",
