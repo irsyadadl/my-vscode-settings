@@ -89,13 +89,16 @@
         ".php_cs.dist": "php"
     },
 
-    "[php]": {
-        "editor.defaultFormatter": "junstyle.php-cs-fixer"
-    },
-    "php-cs-fixer.onsave": true,
-    "php-cs-fixer.showOutput": false,
-    "php-cs-fixer.autoFixByBracket": false,
-    "php-cs-fixer.rules": "@PSR4",
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php.suggest.basic": false,
+
+    // "[php]": {
+    //     "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    // },
+    // "php-cs-fixer.onsave": true,
+    // "php-cs-fixer.showOutput": false,
+    // "php-cs-fixer.autoFixByBracket": false,
+    // "php-cs-fixer.rules": "@PSR2",
 
     "customizeUI.stylesheet": {
         ".monaco-workbench .part.sidebar>.title>.title-label h2": "text-transform: none;",
@@ -116,6 +119,5 @@
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, blue, skyblue) !important; color: #292D3E !important",
 
         ".monaco-editor .scroll-decoration": "box-shadow: none;"
-    },
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar"
+    }
 }
