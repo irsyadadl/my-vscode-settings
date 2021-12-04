@@ -8,7 +8,7 @@
     "workbench.statusBar.visible": false,
     "workbench.activityBar.visible": false,
     "workbench.iconTheme": "material-icon-theme",
-    "material-icon-theme.folders.theme": "none",
+    "material-icon-theme.folders.theme": "classic",
     "window.zoomLevel": 1.6,
     "security.workspace.trust.untrustedFiles": "open",
     "editor.fontSize": 14,
@@ -77,6 +77,14 @@
         "storage": true,
         ".phpunit.result.cache": true
     },
+
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.showOutput": false,
+    "php-cs-fixer.autoFixByBracket": false,
+    "php-cs-fixer.rules": "@PSR4",
 
     "customizeUI.stylesheet": {
         ".monaco-workbench .part.sidebar>.title>.title-label h2": "text-transform: none;",
