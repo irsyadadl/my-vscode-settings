@@ -78,6 +78,17 @@
         ".phpunit.result.cache": true
     },
 
+    "emmet.includeLanguages": {
+        "blade": "html",
+        "vue-html": "html",
+        "vue": "html",
+        "javascript": "javascriptreact"
+    },
+    "files.associations": {
+        ".php_cs": "php",
+        ".php_cs.dist": "php"
+    },
+
     "[php]": {
         "editor.defaultFormatter": "junstyle.php-cs-fixer"
     },
@@ -105,5 +116,6 @@
         ".monaco-editor .cursor": "background: linear-gradient(to bottom, blue, skyblue) !important; color: #292D3E !important",
 
         ".monaco-editor .scroll-decoration": "box-shadow: none;"
-    }
+    },
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar"
 }
