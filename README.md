@@ -15,5 +15,6 @@ If you like to know what extensions I used.
  12. Github Copilot (disabled)
  13. [Laravel Blade Snippets](https://marketplace.visualstudio.com/items?itemName=onecentlin.laravel-blade)
  14. [Laravel Extra Intellisense](https://marketplace.visualstudio.com/items?itemName=amiralizadeh9480.laravel-extra-intellisense)
+ 15. [php cs fixer](https://marketplace.visualstudio.com/items?itemName=junstyle.php-cs-fixer)
 
 It will change if I have something new.
