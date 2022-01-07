@@ -35,18 +35,18 @@
     * Toggle Font Size
     **/
     {
-        "key": "cmd+k cmd+k",
+        "key": "cmd+k cmd+z",
         "command": "toggle",
         "when": "editorTextFocus",
         "args": {
             "id": "fontSize",
             "value": [
                 {
-                    "editor.fontSize": 15,
-                    "editor.lineHeight": 45
+                    "editor.fontSize": 14,
+                    "editor.lineHeight": 40
                 },
                 {
-                    "editor.fontSize": 12,
+                    "editor.fontSize": 11,
                     "editor.lineHeight": 0
                 }
             ]
@@ -251,6 +251,10 @@
 	{
         "key": "cmd+k cmd+i",
         "command": "namespaceResolver.import"
+    },
+	{
+        "key": "cmd+k e",
+        "command": "namespaceResolver.expand"
     },
 
     /**
